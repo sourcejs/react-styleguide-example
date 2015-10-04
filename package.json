@@ -1,0 +1,17 @@
+{
+  "name": "react-styleguide-example",
+  "version": "0.1.0",
+  "description": "Example of react-styleguide usage.",
+  "main": "src/index.jsx",
+  "author": "Robert Haritonov <r@rhr.me>",
+  "license": "MIT",
+  "scripts": {
+    "build-source": "cd ./node_modules/sourcejs && npm run build",
+    "start": "node ./node_modules/sourcejs/app.js"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "sourcejs": "^0.6.0-nightly.0",
+    "sourcejs-react": "^1.1.1"
+  }
+}
