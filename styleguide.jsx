@@ -1,6 +1,10 @@
 'use strict';
 
 var React = require('react/addons');
+var Example = require('sourcejs-react/SourceExample.jsx');
+var Section = require('sourcejs-react/SourceSection.jsx');
+var Code = require('sourcejs-react/SourceCode.jsx');
+
 var Button = require('./src/index.jsx');
 
 module.exports = React.createClass({
@@ -11,21 +15,27 @@ module.exports = React.createClass({
 
                 <h1>Button</h1>
 
-                <section className="source_section">
+                <Section>
                     <h2>Default</h2>
 
-                    <div className="source_example">
+                    <Code>
+                        {`<Button>Button Text</Button>`}
+                    </Code>
+                    <Example>
                         <Button>Button Text</Button>
-                    </div>
-                </section>
+                    </Example>
+                </Section>
 
-                <section className="source_section">
+                <Section>
                     <h2>Button (Red)</h2>
 
-                    <div className="source_example">
+                    <Code>
+                        {`<Button modifier="red">Custom Red Button</Button>`}
+                    </Code>
+                    <Example>
                         <Button modifier="red">Custom Red Button</Button>
-                    </div>
-                </section>
+                    </Example>
+                </Section>
             </div>
         );
     }
