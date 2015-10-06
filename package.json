@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^0.13.3",
     "sourcejs": "^0.6.0-nightly.0",
-    "sourcejs-react": "operatino/sourcejs-react"
+    "sourcejs-react": "operatino/sourcejs-react",
+    "sourcejs-webpack": "^0.1.0"
   }
 }

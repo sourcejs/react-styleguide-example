@@ -1,13 +1,13 @@
 # React Styleguide Example
 
-An example of React Styleguide bundle, powered by [SourceJS](http://sourcejs.com).
+An example of Isomorpic React Styleguide bundle, powered by [SourceJS](http://sourcejs.com).
 
 ```
 npm i && npm start
 open http://127.0.0.1:8080
 ```
 
-To update SourceJS (in case of installed plugins, run
+To update SourceJS (in case of installed plugins), run
 
 ```
 npm run build-source
@@ -21,16 +21,18 @@ As an input SourceJS gets React component, engine configuration and documentatio
 
 For rendering a documentation page, this example uses [sourcejs-react](https://github.com/szarouski/sourcejs-react) plugin. As an alternative, you can use [sourcejs-md-react](https://github.com/mik01aj/sourcejs-md-react) or any other tech-integration plugins listed here [sourcejs.com/docs/spec-helpers](http://sourcejs.com/docs/spec-helpers/#plugins) (Jade/Slim/DSS).
 
+[sourcejs-webpack](https://github.com/sourcejs/sourcejs-webpack) is used for preparing client-side code out of `styleguide.jsx`.
+
 ### File structure
 
-```
-/
-    info.json - documentation page meta, used for indexing multiple-cataloged component libraries
-    styleguide.jsx - documentation page description, here you place your component examples and description
-    sourcejs-options.js - overriding default SourceJS options to set `styleguide.jsx` as an entry point
-    src - example component source code
-```
+
+* **info.json** - documentation page meta, used for indexing multiple-cataloged component libraries
+* **styleguide.jsx** - documentation page description, here you place your component examples and description
+* **sourcejs-options.js** - overriding default SourceJS options to set `styleguide.jsx` as an entry point
+* **src** - example component source code
 
 ## TODO
 
 * Make configuration slimer (remove `sourcejs-option.js` and `info.json`)
+* Add component playground ([demo](http://projects.formidablelabs.com/component-playground/))
+* Add auto-generated props doc

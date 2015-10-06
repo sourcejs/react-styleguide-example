@@ -11,7 +11,7 @@ module.exports = React.createClass({
     render: function () {
         return (
             <div>
-                <link rel="stylesheet" href="src/index.css" />
+                <link rel='stylesheet' href='src/index.css' />
 
                 <h1>Button</h1>
 
