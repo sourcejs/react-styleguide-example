@@ -18,6 +18,10 @@ module.exports = React.createClass({
                 <Section>
                     <h2>Default</h2>
 
+                    <p><%- info.__docGenRaw.description %></p>
+
+                    <%- info.__docGenHTML %>
+
                     <Code>
                         {`<Button>Button Text</Button>`}
                     </Code>

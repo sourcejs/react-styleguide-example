@@ -1,6 +1,6 @@
 {
   "name": "react-styleguide-example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Example of react-styleguide usage.",
   "main": "src/index.jsx",
   "author": "Robert Haritonov <r@rhr.me>",
@@ -11,8 +11,9 @@
   },
   "dependencies": {
     "react": "^0.13.3",
-    "sourcejs": "^0.6.0-nightly.0",
+    "sourcejs": "^0.6.0-nightly.1",
     "sourcejs-react": "operatino/sourcejs-react",
-    "sourcejs-webpack": "^0.1.0"
+    "sourcejs-react-docgen": "^0.1.0",
+    "sourcejs-webpack": "^0.2.0"
   }
 }

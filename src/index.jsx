@@ -2,8 +2,14 @@
 
 var React = require('react/addons');
 
+/**
+ * General component description. Defined in component's code (like JSDoc).
+ */
 module.exports = React.createClass({
     propTypes: {
+        /**
+         * Description of prop "modifier".
+         */
         modifier: React.PropTypes.string
     },
     getDefaultProps: function getDefaultProps() {
