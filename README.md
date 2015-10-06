@@ -1,13 +1,19 @@
 # React Styleguide Example
 
-An example of Isomorpic React Styleguide bundle, powered by [SourceJS](http://sourcejs.com).
+A demo project of Isomorpic React Styleguide bundle powered by [SourceJS](http://sourcejs.com). Stable bundle release comming soon.
+
+![image](http://d.pr/i/19V9M)
+
+(generated documentation out of components [source code](https://github.com/sourcejs/react-styleguide-example/blob/master/src/index.jsx) and [styleguide](https://github.com/sourcejs/react-styleguide-example/blob/master/styleguide.jsx) entry point)
+
+## Setup
 
 ```
 npm i && npm start
 open http://127.0.0.1:8080
 ```
 
-To update SourceJS (in case of installed plugins), run
+To update SourceJS (in case of new installed plugins), run
 
 ```
 npm run build-source
@@ -15,16 +21,18 @@ npm run build-source
 
 ## How it works
 
-SourceJS as a style guide platform allows to run either one components documentation (as we see in this example), either a collection of companents with scalable catalogs.
+SourceJS as a style guide platform allows to run either one components documentation (as we see in this example), either a collection of components with scalable catalogs.
 
-As an input SourceJS gets React component, engine configuration and documentation page description (`styleguide.jsx`, `info.json`).
+As an input SourceJS gets React component, engine configuration and documentation (spec) page description (`styleguide.jsx`, `info.json`).
 
 For rendering a documentation page, this example uses [sourcejs-react](https://github.com/szarouski/sourcejs-react) plugin. As an alternative, you can use [sourcejs-md-react](https://github.com/mik01aj/sourcejs-md-react) or any other tech-integration plugins listed here [sourcejs.com/docs/spec-helpers](http://sourcejs.com/docs/spec-helpers/#plugins) (Jade/Slim/DSS).
 
-[sourcejs-webpack](https://github.com/sourcejs/sourcejs-webpack) is used for preparing client-side code out of `styleguide.jsx`.
+[sourcejs-webpack](https://github.com/sourcejs/sourcejs-webpack) is used for preparing client-side code out of `styleguide.jsx` for isomorphic rendering. By default, sourcejs-react plugin only renders components on server side.
+[sourcejs-react-docgen](https://github.com/sourcejs/sourcejs-react-docgen) renders auto generated documentation of properties and code commpoents onto the spec page.
+
+Note: this example is quite limited at the moment, but expect fully configurable plugin set in nearest future.
 
 ### File structure
-
 
 * **info.json** - documentation page meta, used for indexing multiple-cataloged component libraries
 * **styleguide.jsx** - documentation page description, here you place your component examples and description
@@ -33,6 +41,7 @@ For rendering a documentation page, this example uses [sourcejs-react](https://g
 
 ## TODO
 
-* Make configuration slimer (remove `sourcejs-option.js` and `info.json`)
+* Add [sourcejs-contrib-browser-sync](https://github.com/sourcejs/sourcejs-contrib-browser-sync) plugin to example
 * Add component playground ([demo](http://projects.formidablelabs.com/component-playground/))
-* Add auto-generated props doc
+* Make configuration slimmer (remove `sourcejs-option.js` and `info.json`)
+* Integrate hot module replacement
