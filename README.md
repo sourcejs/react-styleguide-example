@@ -2,7 +2,7 @@
 
 A demo project of Isomorpic React Styleguide bundle powered by [SourceJS](http://sourcejs.com). Stable bundle release comming soon.
 
-![image](http://d.pr/i/19V9M)
+![image](http://d.pr/i/19V9M+)
 
 (generated documentation out of components [source code](https://github.com/sourcejs/react-styleguide-example/blob/master/src/index.jsx) and [styleguide](https://github.com/sourcejs/react-styleguide-example/blob/master/styleguide.jsx) entry point)
 
