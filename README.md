@@ -1,10 +1,14 @@
 # React Styleguide Example
 
-A demo project of Isomorpic React Styleguide bundle powered by [SourceJS](http://sourcejs.com). Stable bundle release comming soon.
+:skull: Work in progress :skull:
+
+A demo project of Isomorpic React Styleguide bundle powered by [SourceJS](http://sourcejs.com), [sourcejs-react](https://github.com/szarouski/sourcejs-react) and other plugins.
+
+Generated documentation out of components [source code](https://github.com/sourcejs/react-styleguide-example/blob/master/src/index.jsx) and [styleguide](https://github.com/sourcejs/react-styleguide-example/blob/master/styleguide.jsx) entry point:
 
 ![image](http://d.pr/i/19V9M+)
 
-(generated documentation out of components [source code](https://github.com/sourcejs/react-styleguide-example/blob/master/src/index.jsx) and [styleguide](https://github.com/sourcejs/react-styleguide-example/blob/master/styleguide.jsx) entry point)
+Check out other React SourceJS bundle example with hot reload and live editor - [sourcejs-react-styleguidist-example](http://github.com/sourcejs/sourcejs-react-styleguidist-example).
 
 ## Setup
 
