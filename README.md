@@ -8,7 +8,7 @@ Generated documentation out of components [source code](https://github.com/sourc
 
 ![image](http://d.pr/i/19V9M+)
 
-Check out other React SourceJS bundle example with hot reload and live editor - [sourcejs-react-styleguidist-example](http://github.com/sourcejs/sourcejs-react-styleguidist-example).
+Check out other React SourceJS bundle example with hot reload and live editor - [sourcejs-react-bundle-example](http://github.com/sourcejs/sourcejs-react-bundle-example).
 
 ## Setup
 
